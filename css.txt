@@ -1,0 +1,10 @@
+  PSEUDOCLASSES
+  - styling links if they have been visited
+  - changing the appearance of buttons or inputs when they are hovered over or focused
+  - highlighting the first paragraph within each section to draw attention 
+
+  MOST COMMON
+  - :hover - when the user hovers over an element
+  - :focus - an element receives focus, indicating active interaction (form inputs, buttons, link)
+  - :first-child - targets the first child of a parent element
+  - :visited - targets links that have been visited
