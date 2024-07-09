@@ -8,3 +8,19 @@
   - :focus - an element receives focus, indicating active interaction (form inputs, buttons, link)
   - :first-child - targets the first child of a parent element
   - :visited - targets links that have been visited
+
+  
+  IMAGES
+  - border and shape: border-radius, border-style, border-width
+  - size and aspect ratio: width, height
+
+  BUTTONS
+  - colors and gradients: background-color, background-image, background-size
+  - padding and borders: padding, border-color
+  - text and font: font-family, font-size, font-weight
+
+  LINKS
+  - text decoration: text-decoration
+  - color: color, background-color
+  - hover and active states: :hover, :active, :visited
+  - button-like links: display, padding, border-radius
