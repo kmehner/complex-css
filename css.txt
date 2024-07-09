@@ -24,3 +24,23 @@
   - color: color, background-color
   - hover and active states: :hover, :active, :visited
   - button-like links: display, padding, border-radius
+
+  STYLING TABLES (table, th, tr, td)
+  - Borders and Spacing: 
+      > Use border on table, th, td; 
+      > border-collapse: collapse; on the table; 
+      > padding in th, td.
+  - Header Styling: Bold font, background color, centered text in th.
+  - Striped Rows: tr:nth-child(even) {background-color: #f2f2f2;}
+  - Hover Effects: tr:hover {background-color: #ddd;}
+  
+  List Styling Techniques
+  - Custom Markers: Use list-style-image or CSS counters.
+  - Remove Styles: 
+    > list-style-type: none; 
+    > padding
+    > margin 
+  - Nested Lists: Adjust margin, padding, list-style-type.
+  - Item Icons: Use ::before and content for icons.
+
+  
