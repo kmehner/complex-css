@@ -43,4 +43,10 @@
   - Nested Lists: Adjust margin, padding, list-style-type.
   - Item Icons: Use ::before and content for icons.
 
-  
+  STYLING HTML FORMS: form, input, textarea, button
+  - form container: width, padding, margin, border, background-color
+  - input fields: width, padding, margin, border, background-color
+  - textarea: width, padding, margin, border, background-color
+  - button: background-color, color, padding, border, border-radius, cursor, transition
+  - button:hover: background-color
+  - focus state: outline, cursor, focus

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Forms</title>
+</head>
+
+<body>
+
+  <h1>HTML Forms with various input elements</h1>
+
+  <h2>The Form Tag and its Attributes</h2>
+
+  <!-- Creating a SUBMIT form to POST data collected from user -->
+
+  </form action="/submit" method="post">
+
+    <!-- Username -->
+     <label for="username">Username:</label>
+     <input type="text" id="username" name="username" placeholder="Enter your username" required>
+
+    <!-- Password -->
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+    <!-- Subscribe -->
+    <label for="subscribe">Subscribe to our newsletter:</label>
+    <input type="checkbox" id="subscribe" name="subscribe" value="yes" checked>
+
+    <!-- Gender -->
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+
+    <!-- Comments -->
+    <label for="comments">Comments:</label>
+    <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Enter your comments"></textarea>
+
+    <!-- Reset -->
+    <button type="reset">Reset</button>
+
+    <!-- Submit -->
+    <button type="submit">Submit</button>
+    
+  </form>
+
+  <!-- FORM new input types -->
+  <h2>New Input Types in HTML5</h2>
+  <form>
+
+    <!-- User Email -->
+    <label for="user-email">Email:</label>
+    <input type="email" id="user-email" name="user-email" placeholder="Enter your email" required>
+    
+    <!-- Quantity -->
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" name="quantity" min="1" max="10" step="1">
+    
+    <!-- Date -->
+    <label for="birthdate">Birthdate:</label>
+    <input type="date" id="birthdate" name="birthdate">
+
+    <!-- Buttons -->
+    <button type="reset">Reset</button>
+    <button type="submit">Submit</button>
+  </form>
+
+   <!-- FORM new input types -->
+   <h2>New input types in HTML</h2>
+   <form>
+      <!-- User Email -->
+      <label for="user-email">Email:</label>
+      <input type="email" id="user-email" name="user-email" placeholder="Enter your email" required>
+
+      <!-- Quantity -->
+      <label for="quantity">Quantity:</label>
+      <input type="number" id="quantity" name="quantity" step="2" min="1" max="10">
+
+      <!-- Date -->
+      <label for="birthdate">Birthdate:</label>
+      <input type="date" id="birthdate" name="birthdate">
+
+      <!-- Buttons -->
+      <button type="reset">Reset</button>
+      <button type="submit">Submit</button>
+
+   </form>
+
+   <!-- Versatile type attributes -->
+   <form>
+      <!-- Full Name -->
+       <label for="name">Full Name:</label>
+       <input type="text" id="name" placeholder="ie. John Doe" >
+
+      <!-- Age -->
+       <label for="age">Age:</label>
+       <input type="number" id="age" name="age" min="18" max="99" step="1">
+
+      <!-- Newsletter -->
+       <label for="newsletter">Subscribe to Newsletter:</label>
+       <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+
+      <!-- Preferred Contact Method - name='contact-method'-->
+       <label>Preferred Contact Method:</label>
+
+       <input type="radio" id="email" name="contact-method" value="email">
+       <label for="email">Email</label>
+
+       <input type="radio" id="phone" name="contact-method" value="phone" >
+       <label>Phone</label>
+
+      <!-- Additional Comments -->
+       <label for="comments">Additional Comments:</label>
+       <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Share your thoughts pls" autocorrect="on">Share your thoughts</textarea>
+
+      <!-- Buttons -->
+      <button type="reset">Reset</button>
+      <button type="submit">Submit</button>
+
+   </form>
+  
+</body>
+</html>
